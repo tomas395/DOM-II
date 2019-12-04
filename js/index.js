@@ -29,11 +29,11 @@ navClrClk.addEventListener("dblclick", event => {
 });
 
 // Heres 5
-// window.addEventListener("load", () => {
-//   alert(
-//     "Hi im just an annoying onload message! Forget this ever happened and enjoy the rest of the site."
-//   );
-// });
+window.addEventListener("load", () => {
+  alert(
+    "Hi im just an annoying onload message! Forget this ever happened and enjoy the rest of the site."
+  );
+});
 
 // Heres 6
 const footerB = document.querySelector("footer");
@@ -62,15 +62,17 @@ window.addEventListener("scroll", () => {
   scrollEvent.style.backgroundColor = "red";
 });
 
-// // Heres 10
-// window.addEventListener("keydown", () => {
-//   alert("Glad to see some life");
-// });
+// Heres 10
+window.addEventListener("keydown", () => {
+  alert("Glad to see some life");
+});
 
-// window.addEventListener("keyup", () => {
-//   alert("Nice!");
-// });
+    Heres 11
+window.addEventListener("keyup", () => {
+  alert("Nice!");
+});
 
+// Heres 12
 const divStopProp = document.querySelector(".text-content");
 divStopProp.addEventListener("click", event => {
   divStopProp.style.backgroundColor = "orange";
