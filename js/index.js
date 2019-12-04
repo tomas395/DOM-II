@@ -25,7 +25,7 @@ stopProp.addEventListener("click", event => {
 // Heres 4
 const navClrClk = document.querySelector("header");
 
-navClrClk.addEventListener("click", () => {
+navClrClk.addEventListener("dblclick", () => {
   navClrClk.style.backgroundColor = "gold";
 });
 
@@ -69,8 +69,6 @@ window.addEventListener("scroll", () => {
 
 // Heres 10
 
-const flipThisBtn = document.querySelectorAll(".btn");
-
-flipThisBtn.addEventListener("dblclick", event => {
-  flipThisBtn.style.transform = "rotate(-180deg)";
+window.addEventListener("keydown", () => {
+  alert("Glad to see some life");
 });
