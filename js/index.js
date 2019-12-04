@@ -57,12 +57,12 @@ navLinks.forEach(link => {
 // Heres 9
 const scrollEvent = document.querySelector("body");
 window.addEventListener("scroll", () => {
-  body.style.backgroundColor = "red";
+  scrollEvent.style.backgroundColor = "red";
 });
 
 // Heres 10
 
-const flipThisH2 = document.querySelector(".intro p");
-flipThisH2.addEventListener("click", event => {
-  flipThisH2.style.transform = "rotate(-90deg)";
+const flipThisH4 = document.querySelector(".btn");
+flipThisH4.addEventListener("dblclick", event => {
+  flipThisH4.style.transform = "rotate(-90deg)";
 });
